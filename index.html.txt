@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" data-i18n-content="meta.desc" content="بورتفوليو شخصي — Mahmoud Amr، دارس في Route Academy لدبلومة Software Development & AI Foundations">
+  <title data-i18n="page.title">Mahmoud Amr | بورتفوليو</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;800;900&family=IBM+Plex+Sans+Arabic:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <strong>Mahmoud Amr</strong>
+        <span data-i18n="role">دارس في Route Academy · مطور برمجيات ناشئ</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" data-i18n="nav.home">الرئيسية</a>
+        <a href="#about" data-i18n="nav.about">عني</a>
+        <a href="#skills" data-i18n="nav.skills">المهارات</a>
+        <a href="#projects" data-i18n="nav.projects">المشاريع</a>
+        <a href="#education" data-i18n="nav.education">التعليم</a>
+        <a href="#contact" data-i18n="nav.contact">تواصل</a>
+      </nav>
+      <div class="nav-actions">
+        <div class="nav-controls">
+          <button class="ctrl-btn" id="langBtn" aria-label="Switch language">EN</button>
+          <button class="ctrl-btn" id="themeBtn" aria-label="Toggle theme">☀️</button>
+        </div>
+        <button class="menu-btn" id="menuBtn" aria-label="القائمة">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="badge"><i class="dot"></i> <span data-i18n="hero.badge">متاح لفرص تدريب وعمل</span></span>
+        <h1 data-i18n="hero.h1">أهلاً، أنا Mahmoud Amr</h1>
+        <h2 data-i18n="role">دارس في Route Academy · مطور برمجيات ناشئ</h2>
+        <div class="chips">
+          <span class="chip" data-i18n="chip.flutter">Flutter — لسه بأبدأ</span>
+          <span class="chip">C++ &amp; OOP</span>
+          <span class="chip" data-i18n="chip.dsa">هياكل بيانات وخوارزميات</span>
+          <span class="chip" data-i18n="chip.python">Python وأساسيات AI</span>
+          <span class="chip" data-i18n="chip.sql">قواعد بيانات SQL</span>
+        </div>
+        <p class="desc" data-i18n="hero.desc">
+          درست منهج دبلومة Software Development &amp; AI Foundations في Route Academy —
+          أكتر من 500 ساعة تدريب وتعلم ذاتي عبر 12 وحدة ومسارًا، من أساسيات C++ حتى أساسيات تعلم الآلة،
+          مع مشاريع عملية وتكليفات تطبيقية على Codeforces. وحاليًا لسه بأبدأ رحلتي مع Flutter.
+        </p>
+        <p class="hero-line" data-i18n="hero.line">3 مشاريع عملية · +30 تكليفًا · 12 وحدة ومسارًا</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary" data-i18n="hero.btn.work">شاهد أعمالي</a>
+          <a href="#contact" class="btn btn-outline" data-i18n="hero.btn.contact">تواصل معي</a>
+        </div>
+        <div class="connect">
+          <span data-i18n="connect.label">تواصل عبر</span>
+          <a href="https://wa.me/201105883746" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="mailto:mahmoudamr5122009@gmail.com">Email</a>
+          <a href="https://www.instagram.com/3mk_7ouda_official?stkn=b2k5NWJlenF4Ymdk" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/share/1M3uxxKjNZ/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+
+      <div class="photo-card">
+        <span class="live-badge"><i class="dot"></i> <span data-i18n="photo.live">متاح</span></span>
+        <div class="photo-frame">
+          <img src="assets/me-cutout.png" alt="Mahmoud Amr" data-i18n-alt="photo.alt">
+        </div>
+        <div class="photo-plate">
+          <strong>Mahmoud Amr</strong>
+          <span data-i18n="photo.plate">دارس في Route Academy</span>
+        </div>
+        <span class="chip float-a">OOP</span>
+        <span class="chip float-b">AI</span>
+        <div class="photo-stats">
+          <div><b>+500</b><span data-i18n="stat.hours.short">ساعة تعلم</span></div>
+          <div><b>+30</b><span data-i18n="stat.tasks.short">تكليفًا</span></div>
+          <div><b>3</b><span data-i18n="stat.projects.short">مشاريع</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>C++</span><span>Python</span><span>Java</span><span>SQL</span><span>OOP</span><span>Data Structures</span><span>Algorithms</span><span>SOLID</span><span>Design Patterns</span><span>Agile</span><span>Unit Testing</span><span>Machine Learning</span>
+        <span>C++</span><span>Python</span><span>Java</span><span>SQL</span><span>OOP</span><span>Data Structures</span><span>Algorithms</span><span>SOLID</span><span>Design Patterns</span><span>Agile</span><span>Unit Testing</span><span>Machine Learning</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <span class="label" data-i18n="nav.about">عني</span>
+      <h2 class="section-title" data-i18n="about.title">مطور يبني الأساس قبل الإطار.</h2>
+      <p class="lead" data-i18n="about.lead">
+        بدأت رحلتي من الصفر: أساسيات البرمجة بـ C++، ثم البرمجة كائنية التوجه، فهياكل البيانات
+        وتحليل الخوارزميات، وبعدها قواعد البيانات SQL ومبادئ هندسة البرمجيات، وانتهيت بأساسيات
+        Python وتعلم الآلة. كل مرحلة مشروع وتكليفات وتقييم مستمر.
+      </p>
+      <div class="stats-row">
+        <div class="stat"><b class="num" data-target="12">0</b><span data-i18n="stat.modules">وحدة ومسارًا</span></div>
+        <div class="stat"><b class="num" data-target="500">0</b><span data-i18n="stat.hours">ساعة تعلم</span></div>
+        <div class="stat"><b class="num" data-target="30">0</b><span data-i18n="stat.tasks">تكليفًا وتدريبًا</span></div>
+        <div class="stat"><b class="num" data-target="3">0</b><span data-i18n="stat.projects">مشاريع عملية</span></div>
+      </div>
+
+      <span class="label" data-i18n="about.journey">رحلتي التعليمية</span>
+      <div class="timeline">
+        <div class="tl-item">
+          <span class="tl-year" data-i18n="tl1.year">المرحلة 1</span>
+          <h3 data-i18n="tl1.title">مدخل إلى البرمجة بـ C++</h3>
+          <p data-i18n="tl1.body">أنواع البيانات، العمليات الشرطية، الحلقات، الدوال، العودية، المصفوفات، المؤشرات والـ structs.</p>
+        </div>
+        <div class="tl-item">
+          <span class="tl-year" data-i18n="tl2.year">المرحلة 2</span>
+          <h3 data-i18n="tl2.title">البرمجة كائنية التوجه OOP</h3>
+          <p data-i18n="tl2.body">Classes وObjects، الوراثة، التغليف، التجريد، تعدد الأشكال، الـ templates والـ overloading.</p>
+        </div>
+        <div class="tl-item">
+          <span class="tl-year" data-i18n="tl3.year">المرحلة 3</span>
+          <h3 data-i18n="tl3.title">هياكل البيانات الأساسية</h3>
+          <p data-i18n="tl3.body">Vector، Linked Lists، Stack، Queue، Binary Search Tree، Hash Table، Graph وHeap.</p>
+        </div>
+        <div class="tl-item">
+          <span class="tl-year" data-i18n="tl4.year">المرحلة 4</span>
+          <h3 data-i18n="tl4.title">تحليل الخوارزميات</h3>
+          <p data-i18n="tl4.body">Big O Notation، خوارزميات الترتيب والبحث، وDFS وBFS.</p>
+        </div>
+        <div class="tl-item">
+          <span class="tl-year" data-i18n="tl5.year">المرحلة 5</span>
+          <h3 data-i18n="tl5.title">قواعد البيانات وهندسة البرمجيات</h3>
+          <p data-i18n="tl5.body">نمذجة قواعد البيانات، SQL بالاستعلامات والتجميع، مبادئ SOLID، Design Patterns، Agile وUnit Testing.</p>
+        </div>
+        <div class="tl-item">
+          <span class="tl-year" data-i18n="tl6.year">المرحلة 6</span>
+          <h3 data-i18n="tl6.title">Python وأساسيات الذكاء الاصطناعي</h3>
+          <p data-i18n="tl6.body">أساسيات Python وOOP بها، ثم أساسيات تعلم الآلة: Supervised Learning وClassification وRegression.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="skills">
+    <div class="container">
+      <span class="label" data-i18n="nav.skills">المهارات</span>
+      <h2 class="section-title" data-i18n="skills.title">عدة شغل كاملة من الدبلومة.</h2>
+      <p class="lead" data-i18n="skills.lead">كل مهارة هنا اتدرست نظريًا واتطبقَت عمليًا في تكليفات ومشاريع داخل الدبلومة.</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-num">12</span>
+          <h3 data-i18n="sk1.title">أساسيات C++</h3>
+          <ul>
+            <li data-i18n="sk1.a">أنواع البيانات والعمليات</li>
+            <li data-i18n="sk1.b">If وSwitch وTernary</li>
+            <li data-i18n="sk1.c">حلقات مفردة ومتداخلة</li>
+            <li data-i18n="sk1.d">الدوال والعودية Recursion</li>
+            <li data-i18n="sk1.e">مصفوفات 1D و2D والنصوص</li>
+            <li data-i18n="sk1.f">المؤشرات Pointers والـ Structs</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-num">10</span>
+          <h3 data-i18n="sk2.title">OOP وC++ متقدم</h3>
+          <ul>
+            <li data-i18n="sk2.a">Class وObject والـ Constructors</li>
+            <li data-i18n="sk2.b">التغليف Encapsulation والتركيب</li>
+            <li data-i18n="sk2.c">الوراثة والتجريد</li>
+            <li data-i18n="sk2.d">تعدد الأشكال Polymorphism</li>
+            <li data-i18n="sk2.e">Templates</li>
+            <li data-i18n="sk2.f">Overloading وOverriding وStatic</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-num">9</span>
+          <h3 data-i18n="sk3.title">هياكل البيانات</h3>
+          <ul>
+            <li data-i18n="sk3.a">Vector (Array List)</li>
+            <li data-i18n="sk3.b">Linked List مفردة ومزدوجة</li>
+            <li data-i18n="sk3.c">Stack وQueue</li>
+            <li data-i18n="sk3.d">Binary Search Tree (Set &amp; Map)</li>
+            <li data-i18n="sk3.e">Hash Table</li>
+            <li data-i18n="sk3.f">Graph وHeap</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-num">8</span>
+          <h3 data-i18n="sk4.title">الخوارزميات والتحليل</h3>
+          <ul>
+            <li data-i18n="sk4.a">تعقيد الوقت والمساحة Big O</li>
+            <li data-i18n="sk4.b">منهجيات تصميم الخوارزميات</li>
+            <li data-i18n="sk4.c">Bubble · Selection · Insertion · Merge Sort</li>
+            <li data-i18n="sk4.d">Linear وBinary Search</li>
+            <li data-i18n="sk4.e">DFS وBFS</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-num">8</span>
+          <h3 data-i18n="sk5.title">قواعد البيانات SQL</h3>
+          <ul>
+            <li data-i18n="sk5.a">مقدمة نظم قواعد البيانات</li>
+            <li data-i18n="sk5.b">النمذجة والتصميم المنطقي والعلائقي</li>
+            <li data-i18n="sk5.c">اعتبارات الأداء</li>
+            <li data-i18n="sk5.d">SQL عام وتجميع Aggregation</li>
+            <li data-i18n="sk5.e">عمليات المجموعات Set Operations</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-num">4</span>
+          <h3 data-i18n="sk6.title">هندسة البرمجيات وQA</h3>
+          <ul>
+            <li data-i18n="sk6.a">مبادئ SOLID</li>
+            <li data-i18n="sk6.b">Design Patterns</li>
+            <li data-i18n="sk6.c">مفاهيم Agile</li>
+            <li data-i18n="sk6.d">مقدمة Unit Testing</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-num">10</span>
+          <h3 data-i18n="sk7.title">Python</h3>
+          <ul>
+            <li data-i18n="sk7.a">المتغيرات وأنواع البيانات</li>
+            <li data-i18n="sk7.b">الشروط والحلقات والدوال</li>
+            <li data-i18n="sk7.c">القوائم والقواميس</li>
+            <li data-i18n="sk7.d">Classes وObjects</li>
+            <li data-i18n="sk7.e">وراثة وتغليف وتعدد أشكال</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <span class="skill-num">3</span>
+          <h3 data-i18n="sk8.title">أساسيات AI وتعلم الآلة</h3>
+          <ul>
+            <li data-i18n="sk8.a">Supervised Learning</li>
+            <li data-i18n="sk8.b">Classification</li>
+            <li data-i18n="sk8.c">Regression</li>
+          </ul>
+        </div>
+      </div>
+
+      <span class="label" data-i18n="skills.toolkit">مجموع الأدوات</span>
+      <div class="toolkit">
+        <span>C++</span><span>Python</span><span>Java</span><span>SQL</span><span>OOP</span>
+        <span>Pointers</span><span>Recursion</span><span>Vector</span><span>Linked List</span>
+        <span>Stack</span><span>Queue</span><span>BST</span><span>Hash Table</span><span>Graph</span>
+        <span>Heap</span><span>Big O</span><span>Sorting</span><span>Searching</span><span>DFS</span>
+        <span>BFS</span><span>SOLID</span><span>Design Patterns</span><span>Agile</span>
+        <span>Unit Testing</span><span>Machine Learning</span><span>Classification</span><span>Regression</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <span class="label" data-i18n="nav.projects">المشاريع</span>
+      <h2 class="section-title" data-i18n="projects.title">مشاريع عملية من قلب الدبلومة.</h2>
+      <p class="lead" data-i18n="projects.lead">ثلاثة مشاريع تقييمية إضافة إلى +30 تكليفًا وتدريبًا: 20 تكليف دبلومة (8 أساسيات على Codeforces و4 OOP و6 هياكل بيانات وخوارزميات و2 قواعد بيانات) إضافة إلى تدريبات ذاتية.</p>
+
+      <div class="tabs" id="projectTabs">
+        <button class="tab active" data-filter="all" data-i18n="tab.all">الكل 3</button>
+        <button class="tab" data-filter="cpp">C++ 2</button>
+        <button class="tab" data-filter="java">Java 1</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card" data-cat="cpp">
+          <div class="project-thumb"><img src="assets/proj-library.png" alt="Library System" loading="lazy"></div>
+          <div class="project-body">
+            <span class="proj-cat" data-i18n="p1.cat">أساسيات البرمجة</span>
+            <h3>Library System</h3>
+            <p class="proj-tag" data-i18n="p1.tag">نظام إدارة مكتبة مبني بأساسيات C++</p>
+            <ul class="proj-points">
+              <li data-i18n="p1.a">مصفوفات ونصوص لإدارة الكتب والعمليات</li>
+              <li data-i18n="p1.b">دوال وحلقات لبناء قائمة تفاعلية</li>
+              <li data-i18n="p1.c">منطق شرطي كامل للإضافة والبحث والحذف</li>
+            </ul>
+            <div class="proj-stats">
+              <div><b>C++</b><span data-i18n="ps.language">اللغة</span></div>
+              <div><b data-i18n="p1.track">أساسيات</b><span data-i18n="ps.track">المسار</span></div>
+              <div><b>2026</b><span data-i18n="ps.year">سنة التنفيذ</span></div>
+            </div>
+            <div class="tags"><span>C++</span><span>Arrays</span><span>Strings</span><span>Functions</span></div>
+          </div>
+        </article>
+
+        <article class="project-card" data-cat="cpp">
+          <div class="project-thumb"><img src="assets/proj-bank.png" alt="Bank System" loading="lazy"></div>
+          <div class="project-body">
+            <span class="proj-cat" data-i18n="p2.cat">OOP وهياكل البيانات</span>
+            <h3>Bank System</h3>
+            <p class="proj-tag" data-i18n="p2.tag">نظام بنكي كامل بـ C++ باستخدام OOP وهياكل البيانات</p>
+            <ul class="proj-points">
+              <li data-i18n="p2.a">Classes ووراثة وتغليف لنمذجة الحسابات والعملاء</li>
+              <li data-i18n="p2.b">هياكل بيانات مناسبة لتخزين العمليات والبحث</li>
+              <li data-i18n="p2.c">تصميم قابل للتوسعة حسب مبادئ OOP</li>
+            </ul>
+            <div class="proj-stats">
+              <div><b>C++</b><span data-i18n="ps.language">اللغة</span></div>
+              <div><b>OOP &amp; DS</b><span data-i18n="ps.track">المسار</span></div>
+              <div><b>2026</b><span data-i18n="ps.year">سنة التنفيذ</span></div>
+            </div>
+            <div class="tags"><span>OOP</span><span>Inheritance</span><span>Data Structures</span></div>
+          </div>
+        </article>
+
+        <article class="project-card" data-cat="java">
+          <div class="project-thumb"><img src="assets/proj-xo.png" alt="X/O Game" loading="lazy"></div>
+          <div class="project-body">
+            <span class="proj-cat">OOP</span>
+            <h3>X/O Game</h3>
+            <p class="proj-tag" data-i18n="p3.tag">لعبة إكس أو تطبيقًا لمبادئ OOP بلغة Java</p>
+            <ul class="proj-points">
+              <li data-i18n="p3.a">Classes وObjects لتمثيل اللوحة واللاعبين</li>
+              <li data-i18n="p3.b">منطق فحص الفوز والتعادل</li>
+              <li data-i18n="p3.c">تطبيق عملي لتعدد الأشكال والتغليف</li>
+            </ul>
+            <div class="proj-stats">
+              <div><b>Java</b><span data-i18n="ps.language">اللغة</span></div>
+              <div><b>OOP</b><span data-i18n="ps.track">المسار</span></div>
+              <div><b>Game</b><span data-i18n="ps.type">النوع</span></div>
+            </div>
+            <div class="tags"><span>Java</span><span>OOP</span><span>Game Logic</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="education">
+    <div class="container">
+      <span class="label" data-i18n="nav.education">التعليم</span>
+      <h2 class="section-title">Route Academy</h2>
+      <div class="edu-card">
+        <div class="edu-head">
+          <div>
+            <h3 data-i18n="edu.h3">دبلومة Software Development &amp; AI Foundations</h3>
+            <p data-i18n="edu.p">دارس حاليًا في Route Academy — برنامج تدريبي مكثف: +500 ساعة تدريب وتعلم ذاتي عبر 12 وحدة ومسارًا، من أساسيات C++ وهياكل البيانات حتى SQL وأساسيات تعلم الآلة.</p>
+          </div>
+          <span class="badge" data-i18n="edu.badge">حاليًا · 2026</span>
+        </div>
+        <ul class="proj-points">
+          <li data-i18n="edu.a">ورش عمل عملية موازية للدراسة النظرية</li>
+          <li data-i18n="edu.b">تقييم مستمر للأداء وملاحظات دورية من المدربين</li>
+          <li data-i18n="edu.c">تكامل أساسيات الذكاء الاصطناعي وPrompt Engineering داخل المنهج</li>
+          <li data-i18n="edu.d">3 مشاريع تقييمية و+30 تكليفًا وتدريبًا</li>
+          <li data-i18n="edu.e">مسارات تعلم ذاتي موازية: Flutter وGit &amp; GitHub وحل مسائل على Codeforces</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <span class="badge"><i class="dot"></i> <span data-i18n="cta.badge">متاح لفرص جديدة</span></span>
+      <h2 data-i18n="cta.h2">يلا نبني الخطوة الجاية سوا.</h2>
+      <p data-i18n="cta.p">متاح لفرص التدريب والinternships ووظائف Junior — جاهز أشتغل على مشاريع حقيقية وأتعلم بسرعة داخل فريق.</p>
+      <div class="hero-btns center">
+        <a href="https://wa.me/201105883746" class="btn btn-primary" data-i18n="cta.btn.wa">راسلني على WhatsApp</a>
+        <a href="mailto:mahmoudamr5122009@gmail.com" class="btn btn-outline" data-i18n="cta.btn.mail">ابعت إيميل</a>
+      </div>
+      <div class="stats-row">
+        <div class="stat"><b>+500</b><span data-i18n="stat.hours.short">ساعة تعلم</span></div>
+        <div class="stat"><b>+30</b><span data-i18n="stat.tasks.short">تكليفًا</span></div>
+        <div class="stat"><b>3</b><span data-i18n="stat.projects.short">مشاريع</span></div>
+        <div class="stat"><b>12</b><span data-i18n="stat.modules.short">وحدة ومسارًا</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <span class="label" data-i18n="nav.contact">تواصل</span>
+      <h2 class="section-title" data-i18n="contact.title">جاهز تتكلم؟ ابعتلي.</h2>
+      <p class="lead" data-i18n="contact.lead">هرد على رسالتك في أقرب وقت — من غير رسميات.</p>
+      <form id="contactForm" class="contact-form">
+        <label data-i18n="form.name">الاسم
+          <input type="text" id="name" required data-i18n-ph="form.name.ph">
+        </label>
+        <label data-i18n="form.email">البريد الإلكتروني
+          <input type="email" id="email" required data-i18n-ph="form.email.ph">
+        </label>
+        <label data-i18n="form.message">رسالتك
+          <textarea id="message" rows="5" maxlength="1000" required data-i18n-ph="form.message.ph"></textarea>
+        </label>
+        <div class="form-foot">
+          <span class="counter"><span id="charCount">0</span>/1000</span>
+          <button type="submit" class="btn btn-primary" data-i18n="form.send">إرسال</button>
+        </div>
+        <p id="formStatus" class="form-status"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Mahmoud Amr</strong>
+        <span data-i18n="role">دارس في Route Academy · مطور برمجيات ناشئ</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about" data-i18n="nav.about">عني</a>
+        <a href="#skills" data-i18n="nav.skills">المهارات</a>
+        <a href="#projects" data-i18n="nav.projects">المشاريع</a>
+        <a href="#education" data-i18n="nav.education">التعليم</a>
+        <a href="#contact" data-i18n="nav.contact">تواصل</a>
+      </nav>
+      <p>© <span id="year"></span> Mahmoud Amr — <span data-i18n="footer.rights">جميع الحقوق محفوظة</span></p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/201105883746" target="_blank" rel="noopener" class="float-wa" aria-label="WhatsApp" data-i18n-aria="float.wa">
+    <svg viewBox="0 0 32 32" width="30" height="30" fill="#fff" aria-hidden="true"><path d="M16.004 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.59 4.46 1.71 6.4L3.2 28.8l6.59-1.67a12.74 12.74 0 0 0 6.21 1.6h.01c7.06 0 12.79-5.74 12.79-12.8s-5.74-12.73-12.8-12.73zm0 23.39h-.01a10.6 10.6 0 0 1-5.4-1.48l-.39-.23-4.01 1.02 1.07-3.91-.25-.4a10.55 10.55 0 0 1-1.63-5.66c0-5.86 4.77-10.63 10.64-10.63a10.57 10.57 0 0 1 10.62 10.64c0 5.86-4.77 10.65-10.64 10.65zm5.83-7.97c-.32-.16-1.89-.93-2.18-1.04-.29-.11-.5-.16-.72.16-.21.32-.82 1.04-1.01 1.25-.18.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.9-1.78-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66s1.15 3.09 1.31 3.3c.16.21 2.26 3.45 5.47 4.84.76.33 1.36.53 1.83.68.77.25 1.47.21 2.02.13.62-.09 1.89-.77 2.16-1.52.27-.75.27-1.39.19-1.52-.08-.13-.29-.21-.61-.37z"/></svg>
+  </a>
+
+  <script src="i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
